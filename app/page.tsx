@@ -12,7 +12,7 @@ export default function Home() {
         <Accordion title="Full-day in Petra">
           <p className="mb-3">Let us take you to one of the 7 Wonders of the World - <b>Petra</b>
             <br />
-            a Comfortable time-saving trip with an English-speaking driver will make your journey smooth and pleasant. 
+            a Comfortable time-saving trip with an English-speaking driver will make your journey smooth and pleasant.
           </p>
           <Image src="/images/petra.webp" alt="petra" width={800} height={550} />
           <p className="my-3">What’s to expect:</p>
@@ -54,13 +54,17 @@ export default function Home() {
         </Accordion>
         <Accordion title="FULL day in Petra + Wadi Rum (2 days)">
           <p className="mb-3">Contemplate the beauty of Petra and Wadi Rum during a two-day trip filled with fun and an unforgettable moments. </p>
-          <div className="flex items-center gap-1">
-            <Image src="/images/petra.webp" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3">
+            <div className="col-span-1">
+              <Image src="/images/petra.webp" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p className="my-3">Day 1:</p>
           <ul className="list-disc mb-1">
@@ -111,18 +115,24 @@ export default function Home() {
         </Accordion>
         <Accordion title="FULL day in Petra + Wadi Rum">
           <p className="mb-3">
-          Embark on an unforgettable journey with our full-day Petra and Wadi Rum trip, a mesmerizing 15-hour adventure that promises to transport you to some of the most extraordinary landscapes on the planet. This meticulously crafted expedition is designed for the adventurous soul seeking a truly unique and immersive experience.
+            Embark on an unforgettable journey with our full-day Petra and Wadi Rum trip, a mesmerizing 15-hour adventure that promises to transport you to some of the most extraordinary landscapes on the planet. This meticulously crafted expedition is designed for the adventurous soul seeking a truly unique and immersive experience.
           </p>
-          <div className="flex items-center justify-between flex-wrap gap-1">
-            <Image src="/images/petra.webp" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/jeep.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3">
+            <div className="col-span-1">
+              <Image src="/images/petra.webp" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/jeep.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p className="my-3">What to expect:</p>
           <ul className="list-disc mb-1">
@@ -164,19 +174,27 @@ export default function Home() {
           <p className="mt-3">*time is flexible based on agreement of your travel buddies (e.g. the trip can be started at 5am, etc)</p>
         </Accordion>
         <Accordion title="Overnight Stay + FULL Jeep tour in Wadi Rum">
-          <div className="flex items-center justify-between flex-wrap gap-1 mb-3">
-            <Image src="/images/Camels.jpg" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/jeep.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum2.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/Camels.jpg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/jeep.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p className="mb-3"><b>Pricing: 65 JD / person</b></p>
           <p>What’s included:</p>
@@ -194,19 +212,27 @@ export default function Home() {
           <p className="mt-3">*<a href="https://www.jordanpass.jo/" target="_blank">Jordan pass</a> covers the entrance fee</p>
         </Accordion>
         <Accordion title="Overnight Stay + HALF day Jeep tour in Wadi Rum">
-        <div className="flex items-center justify-between flex-wrap gap-1 mb-3">
-            <Image src="/images/Camels.jpg" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum-jeep-tour.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/wadi-rum2.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/Camels.jpg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum-jeep-tour.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p className="mb-3"><b>Pricing: 50 JD / person</b></p>
           <p className="mb-3">What’s included:</p>
@@ -225,19 +251,27 @@ export default function Home() {
         </Accordion>
         <Accordion title="Tour to Wadi al-Mujib and Dead Sea">
           <p className="mb-3">Discover different historical on this private half-day tour. Experience the canyon hike and swim at the lowest point on earth.</p>
-          <div className="flex items-center justify-between flex-wrap gap-1 mb-3">
-            <Image src="/images/wadi-mujib.jpg" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/mujib2.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/dead-sea.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/dead-sea2.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/wadi-mujib.jpg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/mujib2.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/dead-sea.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/dead-sea2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p className="mb-3">What to expect:</p>
           <ul className="list-disc mb-1">
@@ -280,19 +314,27 @@ export default function Home() {
           </ul>
         </Accordion>
         <Accordion title="Wadi Rum, Petra, Wadi al Mujib,Dead Sea">
-        <div className="flex items-center justify-between flex-wrap gap-1 mb-3">
-            <Image src="/images/wadi-rum.jpg" alt="petra" width={800} height={550}
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/mujib2.jpg" alt="wadi rum" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/dead-sea2.jpg" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
-            <Image src="/images/petra.webp" alt="jeep" width={800} height={550} 
-              className="w-[45%] h-[117px] object-contain"
-            />
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/wadi-rum.jpg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/mujib2.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/dead-sea2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/petra.webp" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
           </div>
           <p>3 Days and 2 nights Trip</p>
           <p className="my-3">Day 1:</p>
@@ -359,7 +401,7 @@ export default function Home() {
             <li className="ml-4">Swimming suit</li>
           </ul>
           <p className="mt-3">*Advising guests to have breakfast at the hostel before
-          starting the trip</p>
+            starting the trip</p>
         </Accordion>
       </div>
     </main>
