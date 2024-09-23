@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Accordion from "./_components/accordion";
 
@@ -402,6 +403,91 @@ export default function Home() {
           </ul>
           <p className="mt-3">*Advising guests to have breakfast at the hostel before
             starting the trip</p>
+        </Accordion>
+        <Accordion title="Aqaba full-day walking tour">
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/aqaba1.jpeg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba2.jpeg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba3.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba4.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <p className="mb-3">Experience a full day in Aqaba</p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">Visit the beautiful modern village Ayla</li>
+            <li className="ml-4">Try the best local food (Falafel, Palestinian Ka'ak, Hibiscus juice, and Kunafa)</li>
+            <li className="ml-4">Pizza street and corniche street</li>
+            <li className="ml-4">Spices shopping and culture places</li>
+            <li className="ml-4">Best panoramic views and photography</li>
+            <li className="ml-4">Visit Aqaba castel and museum</li>
+            <li className="ml-4">Visit mini house beach cafes with a beautiful view and Hibiscus</li>
+            <li className="ml-4">Half hour <b>Glass Boat</b> tour</li>
+          </ul>
+          <p className="mb-3">Enjoy all the above from <b>10:00am</b> to <b>4:00pm</b></p>
+          <p className="mb-1">Prices:</p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">1 Person - 45 JD</li>
+            <li className="ml-4">2 people - 40 JD each</li>
+            <li className="ml-4">3 people - 35 JD each</li>
+            <li className="ml-4">4 people - 30 JD each</li>
+          </ul>
+          <p>For 5 or more people, please contact us for the price information</p>
+        </Accordion>
+        <Accordion title="Aqaba half-day walking tour">
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/aqaba5.jpg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba6.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba7.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba8.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <p className="mb-3">Experience a half day in Aqaba</p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">Visit the beautiful modern village Ayla</li>
+            <li className="ml-4">Try the best local food (Falafel, Palestinian Ka'ak, Hibiscus juice, and Kunafa)</li>
+            <li className="ml-4">Pizza street and corniche street</li>
+            <li className="ml-4">Spices shopping and culture places</li>
+            <li className="ml-4">Best panoramic views and photography</li>
+          </ul>
+          <p className="mb-3">Enjoy all the above from <b>11:00am</b> to <b>2:00pm</b></p>
+          <p className="mb-1">Prices:</p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">1 Person - 30 JD</li>
+            <li className="ml-4">2 people - 25 JD each</li>
+            <li className="ml-4">3 people - 20 JD each</li>
+            <li className="ml-4">4 people - 15 JD each</li>
+          </ul>
+          <p>For 5 or more people, please contact us for the price information</p>
         </Accordion>
       </div>
     </main>
