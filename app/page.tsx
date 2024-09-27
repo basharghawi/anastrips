@@ -504,7 +504,7 @@ export default function Home() {
               />
             </div>
             <div className="col-span-1">
-              <Image src="/images/glassboat4.jpg" alt="jeep" width={800} height={550}
+              <Image src="/images/glassboat4.webp" alt="jeep" width={800} height={550}
                 className="object-cover w-full h-full"
               />
             </div>
