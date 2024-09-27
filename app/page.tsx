@@ -113,6 +113,7 @@ export default function Home() {
             <li className="ml-4">3 people - 120 JD each</li>
             <li className="ml-4">4 people - 110 JD each</li>
           </ul>
+          <p className="my-3">*Advising guests to purchase <a href="https://www.jordanpass.jo/" target="_blank">Jordan pass</a> to save the cost of the visa and enter the historical sites.</p>
         </Accordion>
         <Accordion title="FULL day in Petra + Wadi Rum">
           <p className="mb-3">
@@ -173,6 +174,7 @@ export default function Home() {
             <li className="ml-4">Water (when visiting Petra)</li>
           </ul>
           <p className="mt-3">*time is flexible based on agreement of your travel buddies (e.g. the trip can be started at 5am, etc)</p>
+          <p className="my-3">*Advising guests to purchase <a href="https://www.jordanpass.jo/" target="_blank">Jordan pass</a> to save the cost of the visa and enter the historical sites.</p>
         </Accordion>
         <Accordion title="Overnight Stay + FULL Jeep tour in Wadi Rum">
           <div className="grid grid-cols-2 gap-3 mb-3">
