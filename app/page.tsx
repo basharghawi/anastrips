@@ -489,6 +489,56 @@ export default function Home() {
           </ul>
           <p>For 5 or more people, please contact us for the price information</p>
         </Accordion>
+        <Accordion title="Glass Bottom Boat Tours">
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/aqaba1.jpeg" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/aqaba2.jpeg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/glassboat.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/glasssboat2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <p className="mb-1"><b>Half hour tour</b></p>
+          <p className="mb-3">Price: 25 JD</p>
+          <p className="mb-1"><b>One hour tour</b></p>
+          <p className="mb-3">Price: 45 JD</p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">Watch the tank site</li>
+            <li className="ml-4">Your around hotels and borders</li>
+            <li className="ml-4">Coral reef tour</li>
+          </ul>
+          <p className="mb-1"><b>Half-day tour</b></p>
+          <ul className="list-disc mb-3">
+            <li className="ml-4">4 hours boat tour</li>
+            <li className="ml-4">Watch tank site and coral reef</li>
+            <li className="ml-4">Watch plane and ship site</li>
+            <li className="ml-4">Snorkiling tour</li>
+            <li className="ml-4">Military museums site</li>
+            <li className="ml-4">Japanese garden site</li>
+            <li className="ml-4">lunch and soft drink included</li>
+          </ul>
+          <p className="mb-1">Prices:</p>
+          <ul className="list-disc">
+            <li className="ml-4">1 person - 110 JD</li>
+            <li className="ml-4">2 person - 90 JD</li>
+            <li className="ml-4">3 person - 75 JD</li>
+            <li className="ml-4">4 person - 55 JD</li>
+          </ul>
+        </Accordion>
       </div>
     </main>
   );
