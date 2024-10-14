@@ -199,7 +199,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <p className="mb-3"><b>Pricing: 65 JD / person</b></p>
+          <p className="mb-3"><b>Pricing: 70 JD / person</b></p>
           <p>What’s included:</p>
           <ul className="list-disc mb-1">
             <li className="ml-4">FULL Jeep tour in Wadi Rum</li>
@@ -237,7 +237,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <p className="mb-3"><b>Pricing: 50 JD / person</b></p>
+          <p className="mb-3"><b>Pricing: 55 JD / person</b></p>
           <p className="mb-3">What’s included:</p>
           <ul className="list-disc mb-1">
             <li className="ml-4">HALF Jeep tour in Wadi Rum</li>
