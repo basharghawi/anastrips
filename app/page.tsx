@@ -541,6 +541,46 @@ export default function Home() {
             <li className="ml-4">4 person - 55 JD</li>
           </ul>
         </Accordion>
+        <Accordion title="Wadi Araba full day">
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/wadi-araba.webp" alt="petra" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-araba1.jpg" alt="wadi rum" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-araba2.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/wadi-araba3.jpg" alt="jeep" width={800} height={550}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <ul className="list-disc mb-3">
+            <li className="ml-4"> Tour and walk In Wadi Arabia </li>
+            <li className="ml-4"> Tour to see Nkhila Area </li>
+            <li className="ml-4"> Firewood tea experience</li>
+            <li className="ml-4"> Learn about Bedouin culture</li>
+            <li className="ml-4"> photographing desert landscapes</li>
+            <li className="ml-4"> Lunch and drinks </li>
+            <li className="ml-4"> Transportation included</li>
+          </ul>
+          <p className="mb-1">Prices:</p>
+          <ul className="list-disc">
+            <li className="ml-4">1 person - 70 JD</li>
+            <li className="ml-4">2 person - 55 JD</li>
+            <li className="ml-4">3 person - 45 JD</li>
+            <li className="ml-4">4 person - 40 JD</li>
+          </ul>
+        </Accordion>
       </div>
     </main>
   );
