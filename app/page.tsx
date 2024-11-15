@@ -252,22 +252,65 @@ export default function Home() {
           </ul>
           <p className="mt-3">*<a href="https://www.jordanpass.jo/" target="_blank">Jordan pass</a> covers the entrance fee</p>
         </Accordion>
+        <Accordion title="Camping in Wadi Rum desert">
+          <p className="mb-3">
+            Experience camping in Wadi Rum mountain
+          </p>
+          <div className="grid grid-cols-2 gap-3 mb-3">
+            <div className="col-span-1">
+              <Image src="/images/camp.jpeg" alt="petra" width={800} height={550}
+                     className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/camp5.jpeg" alt="jeep" width={800} height={550}
+                     className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/camp2.jpeg" alt="wadi rum" width={800} height={550}
+                     className="object-cover w-full h-full"
+              />
+            </div>
+            <div className="col-span-1">
+              <Image src="/images/camp3.jpeg" alt="jeep" width={800} height={550}
+                     className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <ul className="list-disc mb-1">
+            <li className="ml-4">Enjoy tea, coffee, and food on firewood</li>
+            <li className="ml-4">Sleeping in tent and gazing at the stars and enjoying sunset and sunrise on top of a
+              mountain
+            </li>
+            <li className="ml-4">Experience Jeep tour and hiking in the magnificent desert of Wadi Rum</li>
+          </ul>
+          <p className="mt-3"><b>Pricing</b></p>
+          <ul className="list-disc mb-1">
+            <li className="ml-4">1 Person - 150 JD</li>
+            <li className="ml-4">2 people - 110 JD each</li>
+            <li className="ml-4">3 people - 95 JD each</li>
+            <li className="ml-4">4 people - 85 JD each</li>
+          </ul>
+          <p>Prices include transportation</p>
+        </Accordion>
         <Accordion title="Tour to Wadi al-Mujib and Dead Sea">
-          <p className="mb-3">Discover different historical on this private half-day tour. Experience the canyon hike and swim at the lowest point on earth.</p>
+          <p className="mb-3">Discover different historical on this private half-day tour. Experience the canyon hike
+            and swim at the lowest point on earth.</p>
           <div className="grid grid-cols-2 gap-3 mb-3">
             <div className="col-span-1">
               <Image src="/images/wadi-mujib.jpg" alt="petra" width={800} height={550}
-                className="object-cover w-full h-full"
+                     className="object-cover w-full h-full"
               />
             </div>
             <div className="col-span-1">
               <Image src="/images/mujib2.jpg" alt="wadi rum" width={800} height={550}
-                className="object-cover w-full h-full"
+                     className="object-cover w-full h-full"
               />
             </div>
             <div className="col-span-1">
               <Image src="/images/dead-sea.jpg" alt="jeep" width={800} height={550}
-                className="object-cover w-full h-full"
+                     className="object-cover w-full h-full"
               />
             </div>
             <div className="col-span-1">
@@ -548,11 +591,11 @@ export default function Home() {
                 className="object-cover w-full h-full"
               />
             </div>
-            <div className="col-span-1">
-              <Image src="/images/wadi-araba1.jpg" alt="wadi rum" width={800} height={550}
-                className="object-cover w-full h-full"
-              />
-            </div>
+            {/*<div className="col-span-1">*/}
+            {/*  <Image src="/images/wadi-araba1.jpg" alt="wadi rum" width={800} height={550}*/}
+            {/*    className="object-cover w-full h-full"*/}
+            {/*  />*/}
+            {/*</div>*/}
             <div className="col-span-1">
               <Image src="/images/wadi-araba2.jpg" alt="jeep" width={800} height={550}
                 className="object-cover w-full h-full"
