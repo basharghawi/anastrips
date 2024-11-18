@@ -625,7 +625,7 @@ export default function Home() {
           </ul>
         </Accordion>
       </div>
-      <a className="hidden" href="/ViewCertificate_241118_132422_241118_133310ahmad.pdf">view the pdf</a>
+      <a className="hidden" href="/ViewCertificate_241118_132422_241118_133310.pdf">view the pdf</a>
     </main>
   );
 }
