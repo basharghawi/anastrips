@@ -18,10 +18,10 @@ export default function Home() {
           <Image src="/images/petra.webp" alt="petra" width={800} height={550} />
           <p className="my-3">What’s to expect:</p>
           <ul className="list-disc mb-1">
-            <li className="ml-4">07:00 Leave from Aqaba & head to Petra</li>
-            <li className="ml-4">9:00 Petra</li>
-            <li className="ml-4">15:00 Drive to Aqaba</li>
-            <li className="ml-4">8:00 Aqaba</li>
+            <li className="ml-4">7:00 AM Leave from Aqaba & head to Petra</li>
+            <li className="ml-4">9:00 AM Petra</li>
+            <li className="ml-4">3:00 PM Drive to Aqaba</li>
+            <li className="ml-4">8:00 PM Aqaba</li>
           </ul>
           <p className="my-3">Included:</p>
           <ul className="list-disc mb-1">
